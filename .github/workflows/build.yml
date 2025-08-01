@@ -31,6 +31,8 @@ jobs:
             libtool
             autoconf
             automake-wrapper
+            mingw-w64-${{ matrix.arch }}-pkg-config
+            mingw-w64-${{ matrix.arch }}-pkgconf
             mingw-w64-${{ matrix.arch }}-libzip
             mingw-w64-${{ matrix.arch }}-github-cli
 
