@@ -34,7 +34,12 @@ jobs:
             mingw-w64-${{ matrix.arch }}-pkg-config
             mingw-w64-${{ matrix.arch }}-pkgconf
             mingw-w64-${{ matrix.arch }}-curl
+            mingw-w64-${{ matrix.arch }}-openssl
+            mingw-w64-${{ matrix.arch }}-libxml2
             mingw-w64-${{ matrix.arch }}-libzip
+            mingw-w64-${{ matrix.arch }}-readline
+            mingw-w64-${{ matrix.arch }}-libusb
+            mingw-w64-${{ matrix.arch }}-libtool
             mingw-w64-${{ matrix.arch }}-github-cli
 
       - uses: actions/checkout@v4
